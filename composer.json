@@ -1,0 +1,14 @@
+{
+    "name": "timothymarois/php-crawler",
+    "description": "PHP Crawler",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "tmarois/filebase": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crawler\\": "src/"
+        }
+    }
+}
